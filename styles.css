@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  color: rgb(38, 35, 35);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+ul,
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100vw;
+}
+
+img {
+  height: 100px;
+}
+
+#hero-img {
+  height: 200px;
+}
+
+a {
+  color: blueviolet;
+}
+
+section {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+/* .card = selector 
+{ } = erklæring på cssen
+ Rule/regel = alt innenfor { }*/
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border: solid red;
+  border-radius: 25px;
+}
+
+.card img {
+  width: 100px;
+}
